@@ -11,9 +11,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
-      }`}
+      } w-full flex items-center py-5 fixed top-0 z-20  bg-primary`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
       <Link
@@ -24,10 +22,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Vishwa &nbsp;
-            <span className='sm:block hidden'> | 3D Portfolio</span>
+          <img src="/logo.png" alt='logo' className='w-9 h-9 object-contain' />
+          <p className='text-white text-[18px] font-bold cursor-pointer '>
+            Vishwa<span className='sm:block hidden'> | 3D Portfolio</span>
           </p>
         </Link>
         <p className='text-red-500'>asdsa</p>
