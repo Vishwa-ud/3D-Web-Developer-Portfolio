@@ -26,13 +26,13 @@ const renderContent = {
         <InfoBox 
         text ="Undergatuadte Software Engineer at SLIIT Faculty of Computing"
         link ="/about"
-        btnText ="Lern more about me"
+        btnText ="Learn more about me"
         />
     ),
     3: (
         <InfoBox 
         text ="Led multiple projects to success over the years. Curious about the impact?"
-        link ="/projects"
+        link ="/works"
         btnText ="Visit my portfolio"
         />
     ),
