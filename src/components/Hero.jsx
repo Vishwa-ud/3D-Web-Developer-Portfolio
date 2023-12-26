@@ -12,7 +12,7 @@ const Hero = () => {
     particlesJS('particles-js', {
         "particles": {
           "number": {
-            "value": 80,
+            "value": 50,
             "density": {
               "enable": true,
               "value_area": 800
@@ -147,7 +147,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/*<ComputersCanvas />*/}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
