@@ -1,6 +1,6 @@
 import { useState,Suspense,useEffect,useRef } from "react";
 import { Canvas } from "@react-three/fiber";
-import Loader from "./Loader";
+import IslandLoader from "./IslandLoader";
 import  Island  from "../models/Island";
 import Sky from "../models/Sky";
 import Bird from "../models/Bird";
@@ -72,7 +72,7 @@ return (
         }`}
         camera={{ near: 0.1, far: 1000 }}
       >
-            <Suspense fallback={<Loader/>}>
+            <Suspense fallback={<IslandLoader/>}>
 
             <directionalLight position={[1, 1, 1]} intensity={2} />
           <ambientLight intensity={0.5} />
