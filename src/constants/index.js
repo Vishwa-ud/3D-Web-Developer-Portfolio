@@ -198,41 +198,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movie Theatre Management System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Revolutionize movie-going with Full-Stack Web-based platform that allows users to search, book, and purchase movie tickets and deals and exclusives from movie theatre,This project is developed for automataing manual work in movie theatre. Simplify and enhance theater management for an interactive experience.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MERNStack",
           color: "pink-text-gradient",
         },
+        {
+          name: "Redux",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Hotel Management System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Experience the ultimate in hotel management with our web application. Utilizing MVC architecture and CRUD operations, users can effortlessly search for hotels and rooms, while enabling powerful management capabilities.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Microsoft SQL Server",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Apache Tomcat",
           color: "pink-text-gradient",
         },
       ],
@@ -240,20 +261,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "3D Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Embark on a captivating journey through my portfolio, where cutting-edge technology meets creativity. Immerse yourself in a world of 3D graphics and animations powered by ThreeJS, Framer Motion, and React Three Fiber. Explore my excellence with a floating island and connect effortlessly through the EmailJs-enabled email function.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "ThreeJS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
