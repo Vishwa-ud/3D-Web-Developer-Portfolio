@@ -23,6 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    movie,
+    hotel,
+    portfolio,
+    java,
+    python,
+    c,
+    php,
+    kotlin
   } from "../assets";
   
   export const navLinks = [
@@ -97,20 +105,16 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
       name: "figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "python",
+      icon: python,
     },
   ];
   
@@ -224,7 +228,7 @@ import {
         },
 
       ],
-      image: carrent,
+      image: movie,
       source_code_link: "https://github.com/",
     },
     {
@@ -257,7 +261,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: hotel,
       source_code_link: "https://github.com/",
     },
     {
@@ -278,8 +282,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/Vishwa-ud/Movie-theatre-management-system",
     },
   ];
   
