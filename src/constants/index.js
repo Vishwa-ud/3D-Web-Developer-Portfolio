@@ -33,6 +33,8 @@ import {
     kotlin,
     sliit,
     amcc,
+    github,
+    linkedin,
   } from "../assets";
   
   export const navLinks = [
@@ -290,5 +292,17 @@ import {
       source_code_link: "https://github.com/Vishwa-ud/",
     },
   ];
+  const socialLinks = [
+    {
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/Vishwa-ud/',
+    },
+    {
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/vishwa-udayantha-7271892a2/',
+    }
+];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, socialLinks };
