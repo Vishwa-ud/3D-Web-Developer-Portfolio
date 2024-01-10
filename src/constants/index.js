@@ -30,7 +30,9 @@ import {
     python,
     c,
     php,
-    kotlin
+    kotlin,
+    sliit,
+    amcc,
   } from "../assets";
   
   export const navLinks = [
@@ -120,57 +122,59 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Student",
+      company_name: "R/ Ananda Maithreya Central College",
+      icon: amcc,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Advanced Levels With Technology Stream (2019)",
+        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        // "Implementing responsive design and ensuring cross-browser compatibility.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Undergraduate",
+      company_name: "Sri Lanka Institute of Information Technology",
+      icon: sliit,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2021 - 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Degree in Information Technology (2021 - 2025).",
+        "Demonstrated commitment to personal growth and skill enhancement.",
+        "Developed strong verbal and written communication skills.",
+        "Acquired practical experience in project management methodologies, effectively coordinating tasks and meeting deadlines within collaborative team settings.",
+        "Demonstrated strong analytical skills by successfully navigating and solving complex problems in various projects. Applied critical thinking to assess and address challenges, contributing to successful project outcomes.",
+        "Committed to achieving excellence in all tasks, with a focus on delivering high-quality results.",
       ],
     },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -229,7 +233,7 @@ import {
 
       ],
       image: movie,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vishwa-ud/Movie-theatre-management-system",
     },
     {
       name: "Hotel Management System",
@@ -262,7 +266,7 @@ import {
         },
       ],
       image: hotel,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vishwa-ud/project01",
     },
     {
       name: "3D Portfolio",
@@ -283,7 +287,7 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link: "https://github.com/Vishwa-ud/Movie-theatre-management-system",
+      source_code_link: "https://github.com/Vishwa-ud/",
     },
   ];
   
