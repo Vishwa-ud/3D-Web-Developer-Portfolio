@@ -41,6 +41,8 @@ import movie from "./movie.png";
 import hotel from "./hotel.png";
 import portfolio from "./portfolio.png";
 
+import linkedin from "./icons/linkedin.svg";
+
 export {
   logo,
   backend,
@@ -80,4 +82,5 @@ export {
   kotlin,
   sliit,
   amcc,
+  linkedin,
 };
