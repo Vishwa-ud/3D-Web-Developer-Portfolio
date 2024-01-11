@@ -138,7 +138,7 @@ import {
     },
     {
       title: "Undergraduate",
-      company_name: "Sri Lanka Institute of Information Technology",
+      company_name: "Sri Lanka Institute of Information Technology(SLIIT)",
       icon: sliit,
       iconBg: "#E6DEDD",
       date: "Sep 2021 - 2025",
