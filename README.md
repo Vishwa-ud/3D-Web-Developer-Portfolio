@@ -25,13 +25,11 @@ Embark on a virtual journey through my portfolio, set on a captivating floating 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
-
 👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
 
 👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
 
-👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
+👉 **Animated Projects**: Features animated sections using framer motion for projects.
 
 👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
 
