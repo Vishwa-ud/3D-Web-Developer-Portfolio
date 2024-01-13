@@ -90,6 +90,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              autoComplete="name"//new line auto complete issue
             />
           </label>
           <label className='flex flex-col'>
@@ -102,6 +103,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your Email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              autoComplete="email"//new line auto complete issue
             />
           </label>
           <label className='flex flex-col'>
@@ -114,6 +116,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='What do you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              autoComplete="message" //new line auto complete issue         
             />
           </label>
 
