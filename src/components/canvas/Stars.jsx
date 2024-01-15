@@ -1,11 +1,16 @@
 import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
-import * as random from "maath/random/dist/maath-random.esm";
 
 const Stars = (props) => {
   const ref = useRef();
-  const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.2 }));
+  const numStars = 5000;
+  const positions = new Float32Array(numStars * 3);
+
+  // Generate random positions
+  for (let i = 0; i < numStars * 3; i++) {
+    positions[i] = Math.random() * 2 - 1; // Adjust range as needed
+  }
 
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
@@ -14,7 +19,7 @@ const Stars = (props) => {
 
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
-      <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
+      <Points ref={ref} positions={positions} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
           color='#f272c8'
