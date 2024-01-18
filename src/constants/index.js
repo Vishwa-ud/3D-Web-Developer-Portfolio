@@ -85,10 +85,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -119,6 +115,26 @@ import {
     {
       name: "python",
       icon: python,
+    },
+    {
+      name: "c",
+      icon: c,
+    },
+    {
+      name: "php",
+      icon: php,
+    },
+    {
+      name: "kotlin",
+      icon: kotlin,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "threejs",
+      icon: threejs,
     },
   ];
   
