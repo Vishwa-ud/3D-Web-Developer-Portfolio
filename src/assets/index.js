@@ -25,6 +25,13 @@ import python from "./tech/python.png";
 import c from "./tech/c.png";
 import php from "./tech/php.png";
 import kotlin from "./tech/kotlin.png";
+import msql from "./tech/msql.png";
+import express from "./tech/express.png";
+import anstudio from "./tech/anstudio.png";
+import mysql from "./tech/mysql.png";
+import postman from "./tech/postman.png";
+import vscode from "./tech/vscode.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -42,6 +49,7 @@ import hotel from "./hotel.png";
 import portfolio from "./portfolio.png";
 
 import linkedin from "./icons/linkedin.svg";
+import insta from "./tech/insta.png";
 
 export {
   logo,
@@ -83,4 +91,11 @@ export {
   sliit,
   amcc,
   linkedin,
+  insta,
+  msql,
+  express,
+  anstudio,
+  mysql,
+  postman,
+  vscode,
 };
