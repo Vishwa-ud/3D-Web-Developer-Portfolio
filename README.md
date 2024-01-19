@@ -27,8 +27,6 @@ Embark on a virtual journey through my portfolio, set on a captivating floating 
 
 👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
 
-👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
-
 👉 **Animated Projects**: Features animated sections using framer motion for projects.
 
 👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
