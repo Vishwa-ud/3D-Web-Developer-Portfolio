@@ -35,6 +35,13 @@ import {
     amcc,
     github,
     linkedin,
+    insta,
+    msql,
+    mysql,
+    express,
+    anstudio,
+    postman,
+    vscode,
   } from "../assets";
   
   export const navLinks = [
@@ -103,6 +110,22 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
+    },
+    {
+      name: "Msoft SQL Server",
+      icon: msql,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "VS Code",
+      icon: vscode,
+    },
+    {
+      name: "Android Studio",
+      icon: anstudio,
     },
     {
       name: "figma",
@@ -318,7 +341,12 @@ import {
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/vishwa-udayantha-7271892a2/',
-    }
+    },
+    {
+      name: 'Instagram',
+      iconUrl: insta,
+      link: 'https://www.instagram.com/vish__0111/',
+  }
 ];
   
   export { services, technologies, experiences, testimonials, projects, socialLinks };
