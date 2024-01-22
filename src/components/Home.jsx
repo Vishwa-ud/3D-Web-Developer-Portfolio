@@ -55,8 +55,7 @@ const Home = () => {
     
         return [screenScale, screenPosition];
       };
-
-      
+         
     const [islandScale, islandPosition, islandrotation] = adjustIslandForScreenSize();
     const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
