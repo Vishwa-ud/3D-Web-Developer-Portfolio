@@ -24,7 +24,7 @@ Embark on a virtual journey through my portfolio, set on a captivating floating 
 - Tailwind CSS
 
 ## <a name="features">🔋 Features</a>
-👉 **3D Floating island
+👉 **3D Floating island.
 
 👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
 
